@@ -1,9 +1,3 @@
-console.log("make by Abhay557 - source code available on github (Abhay557)");
-
-setInterval(() => {
-	console.log("make by Abhay557 - source code available on github (Abhay557)");
-}, 10000)
-
 let nt = document.getElementById("toggler");
 let nb = document.getElementById("navs");
 let ld = document.getElementById("loading-box")
