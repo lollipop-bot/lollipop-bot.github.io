@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
     <link rel="stylesheet" type="text/css" href="./css/shadow.css">
     <link rel="stylesheet" type="text/css" href="./css/loading.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -20,9 +21,9 @@
 </head>
 
 <body class="on">
-<div class="loading" id="loading-box">
-  <div class="loading-item"><div class="loading-progress"></div></div>
-</div>
+    <div class="loading" id="loading-box">
+        <div class="loading-item"><div class="loading-progress"></div></div>
+    </div>
     <div class="container">
         <div class="mt-4"></div>
         <div class="row">
@@ -32,13 +33,13 @@
                     <hr />
                     <button onclick="active(this)" id="CategoryBtnAll" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class="fad fa-icons ttt"></i>&nbsp; All Commands</button>
                     
-                        <button onclick="active(this)" id="CategoryBtn0" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-gift ttt'></i>&nbsp; Anime Commands</button>
+                        <button onclick="active(this)" id="CategoryBtn0" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-tv ttt'></i>&nbsp; Anime Commands</button>
                     
-                        <button onclick="active(this)" id="CategoryBtn1" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-globe-europe ttt'></i>&nbsp; Fun Commands</button>
+                        <button onclick="active(this)" id="CategoryBtn1" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-balloons ttt'></i>&nbsp; Fun Commands</button>
                     
-                        <button onclick="active(this)" id="CategoryBtn2" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-hammer-war ttt'></i>&nbsp;&nbsp; Roleplay Commands</button>
+                        <button onclick="active(this)" id="CategoryBtn2" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-person-dress ttt'></i>&nbsp;&nbsp; Roleplay Commands</button>
                     
-                        <button onclick="active(this)" id="CategoryBtn3" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fas fa-crown ttt'></i>&nbsp;&nbsp; General Commands</button>
+                        <button onclick="active(this)" id="CategoryBtn3" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fas fa-gift ttt'></i>&nbsp;&nbsp; General Commands</button>
                     
                 </div>
             </div>
@@ -46,7 +47,7 @@
                 <input type="text" class="w-100 search-box" oninput="search(this.value)" placeholder="Search for commands" />
                 
                     
-                        <div class="mt-4"></div>
+                    <div class="mt-4"></div>
                     
                     <div class="commands-section" id="Category0">
                         
@@ -700,5 +701,42 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+
+<footer>
+    <hr/>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-items">
+                <div class="footer-item" align="center">
+                    <span align="center">Bot Lists</span>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="https://top.gg/bot/919061572649910292">Top.gg</a> -
+                            <a href="https://discordbotlist.com/bots/lollipop-4786">Discord Bot List</a> -
+                            <a href="https://infinitybots.gg/bots/919061572649910292">Infinity Bot List</a> -
+                            <a href="https://botlist.me/bots/919061572649910292">Botlist.me</a> -
+                            <a href="https://us.bhbotlist.tech/bot/919061572649910292">BH Botlist</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item" align="center">
+                    <span align="center">Links</span>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="https://discord.gg/3ZDpPyR">Discord</a> -
+                            <a href="https://github.com/lollipop-bot">Github</a> -
+                            <a href="https://www.youtube.com/@BooleanCube">Youtube</a> -
+                            <a href="https://twitter.com/BooleanCub3">Twitter</a> -
+                            <a href="https://www.twitch.tv/lollipopbot1">Twitch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div align="center">Copyright © 2022 BooleanCube | <a href="/tos">Terms of Service</a></div><br>
+        </div>
+    </div>
+    <!-- footer end -->
+</footer>
 
 </html>
