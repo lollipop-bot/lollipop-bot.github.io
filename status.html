@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href="css/cmdnstat.css" rel="stylesheet">
+    <link href="css/ui.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+    <link rel="stylesheet" type="text/css" href="./css/shadow.css">
+    <link rel="stylesheet" type="text/css" href="./css/loading.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Lollipop - Status</title>
+</head>
+
+<body class="on">
+<div class="loading" id="loading-box">
+    <div class="loading-item"><div class="loading-progress"></div></div>
+</div>
+<div class="container">
+    <div class="mt-4"></div>
+    <div class="row">
+        <div class="col-md-4 my-2">
+            <div class="card p-3">
+                <h5>Lollipop Status and Statistics:</h5>
+                <hr />
+                <button onclick="active(this)" id="CategoryBtn0" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class="fad fa-icons ttt"></i>&nbsp; Shards</button>
+
+                <button onclick="active(this)" id="CategoryBtn1" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-tv ttt'></i>&nbsp; Usage Statistics</button>
+
+                <button onclick="active(this)" id="CategoryBtn2" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-balloons ttt'></i>&nbsp; Discord Statistics</button>
+
+                <button onclick="active(this)" id="CategoryBtn3" class="text-decoration-none btn btn-primary mt-2 my-1 p-2"><i class='fas fa-person-dress ttt'></i>&nbsp;&nbsp; Host Server</button>
+
+            </div>
+        </div>
+        <div class="col-md-8 my-2">
+
+
+            <div class="commands-section" id="Category0">
+
+
+                <div class="accordion accordion-flush mt-2" id="shard0">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne1">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fshard0">
+                                Shard 0 Status &nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fshard0" class="accordion-collapse collapse.in" data-bs-parent="#shard0">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Server: Kubernetes<br>
+                                        Guild Count: 20<br>
+                                        Activity Status: Operational<br>
+                                        Latency: 23 ms
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="shard1">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne2">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fshard1">
+                                Shard 1 Status &nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fshard1" class="accordion-collapse collapse.in" data-bs-parent="#shard1">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Server: Kubernetes<br>
+                                        Guild Count: 20<br>
+                                        Activity Status: Operational<br>
+                                        Latency: 23 ms
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="shard2">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne3">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fshard2">
+                                Shard 2 Status &nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fshard2" class="accordion-collapse collapse.in" data-bs-parent="#shard2">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Server: Kubernetes<br>
+                                        Guild Count: 20<br>
+                                        Activity Status: Operational<br>
+                                        Latency: 23 ms
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="shard3">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne4">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fshard3">
+                                Shard 3 Status &nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fshard3" class="accordion-collapse collapse.in" data-bs-parent="#shard3">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Server: Kubernetes<br>
+                                        Guild Count: 20<br>
+                                        Activity Status: Operational<br>
+                                        Latency: 23 ms
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="commands-section" id="Category1">
+
+
+                <div class="accordion accordion-flush mt-2" id="cmd">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne5">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fcmd">
+                                Discord usage statistics&nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fcmd" class="accordion-collapse collapse.in" data-bs-parent="#cmd">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Total command use count: 200 commands<br>
+                                        Lollipop reaction count: 500 reactions<br>
+                                        /ping command use count: 10<br>
+                                        /vote command use count: 10<br>
+                                        /support command use count: 10<br>
+                                        <br>
+                                        Most used command: /search<br>
+                                        Least used command: /policy<br>
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="api">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne6">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fapi">
+                                API request statistics&nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fapi" class="accordion-collapse collapse.in" data-bs-parent="#api">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Total Jikan API Requests: 1000<br>
+                                        Total Kawaii API Requests: 200<br>
+                                        Total Readm API Requests: 500<br>
+                                        Total Animechan API Requests: 100<br>
+                                        Total DiscordDB API Requests: 5000
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="commands-section" id="Category2">
+
+
+                <div class="accordion accordion-flush mt-2" id="server">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne7">
+                            <button class="accordion-button collapsed">
+                                Server Count&nbsp; <span class="command-descreption">= 75 servers</span>
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+
+
+                <div class="accordion accordion-flush mt-2" id="user">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne8">
+                            <button class="accordion-button collapsed">
+                                User Count&nbsp; <span class="command-descreption">= 106k users</span>
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+
+
+                <div class="accordion accordion-flush mt-2" id="ping">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne9">
+                            <button class="accordion-button collapsed">
+                                Average Server Latency&nbsp; <span class="command-descreption">= 23 ms</span>
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+
+
+                <div class="accordion accordion-flush mt-2" id="uptime">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne10">
+                            <button class="accordion-button collapsed">
+                                Application Uptime&nbsp; <span class="command-descreption">= 16 days</span>
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="commands-section" id="Category3">
+
+                <div class="accordion accordion-flush mt-2" id="specs">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne11">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fspecs">
+                                Hosting Server Specs&nbsp; <span class="command-descreption">- Open for details</span>
+                            </button>
+                        </h2>
+                        <div id="fspecs" class="accordion-collapse collapse.in" data-bs-parent="#specs">
+                            <div class="accordion-body">
+                                <span class="examples">
+
+                                        Model: Raspberry Pi 4
+                                        SoC: Broadcom BCM2711B0 quad-core A72 (ARMv8-A) 64-bit @ 1.5GHz<br>
+                                        GPU: Broadcom VideoCore VI<br>
+                                        Networking: 2.4 GHz and 5 GHz 802.11b/g/n/ac wireless LAN<br>
+                                        RAM: 4GB LPDDR4 SDRAM<br>
+                                        Bluetooth: Bluetooth 5.0, Bluetooth Low Energy (BLE)<br>
+                                        GPIO: 40-pin GPIO header, populated<br>
+                                        Storage: microSD<br>
+                                        Ports: 2 × micro-HDMI 2.0, 3.5 mm analogue audio-video jack, 2 × USB 2.0, 2 × USB 3.0, Gigabit Ethernet, Camera Serial Interface (CSI), Display Serial Interface (DSI)<br>
+                                        Dimensions: 88 mm × 58 mm × 19.5 mm, 46 g<br>
+                                        <br>
+                                        Hosting Service: pm2<br>
+                                        Server OS: Raspberry Pi OS (Linux)<br>
+                                        Server Version: 5.10.17-v7l+<br>
+                                        Server Architecture: arm
+
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="/fontawesome/all.min.js"></script>
+<script src="/js/animation.js"></script>
+<script>
+    function active(elm) {
+
+        document.getElementById("CategoryBtn0").classList.remove("active");
+        document.getElementById("Category0").setAttribute("hidden", "");
+
+        document.getElementById("CategoryBtn1").classList.remove("active");
+        document.getElementById("Category1").setAttribute("hidden", "");
+
+        document.getElementById("CategoryBtn2").classList.remove("active");
+        document.getElementById("Category2").setAttribute("hidden", "");
+
+        document.getElementById("CategoryBtn3").classList.remove("active");
+        document.getElementById("Category3").setAttribute("hidden", "");
+
+        elm.classList.add("active");
+        document.getElementById("Category" + elm.id.replace("CategoryBtn", "")).removeAttribute("hidden");
+
+    }
+    document.getElementById("CategoryBtn0").click();
+
+</script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+<footer>
+    <hr/>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-items">
+                <div class="footer-item" align="center">
+                    <span align="center">Bot Lists</span>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="https://top.gg/bot/919061572649910292">Top.gg</a> -
+                            <a href="https://discordbotlist.com/bots/lollipop-4786">Discord Bot List</a> -
+                            <a href="https://infinitybots.gg/bots/919061572649910292">Infinity Bot List</a> -
+                            <a href="https://botlist.me/bots/919061572649910292">Botlist.me</a> -
+                            <a href="https://us.bhbotlist.tech/bot/919061572649910292">BH Botlist</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item" align="center">
+                    <span align="center">Links</span>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="https://discord.gg/3ZDpPyR">Discord</a> -
+                            <a href="https://github.com/lollipop-bot">Github</a> -
+                            <a href="https://www.youtube.com/@BooleanCube">Youtube</a> -
+                            <a href="https://twitter.com/BooleanCub3">Twitter</a> -
+                            <a href="https://www.twitch.tv/lollipopbot1">Twitch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div align="center">Copyright © 2022 BooleanCube | <a href="/tos">Terms of Service</a></div><br>
+        </div>
+    </div>
+    <!-- footer end -->
+</footer>
+
+</html>
