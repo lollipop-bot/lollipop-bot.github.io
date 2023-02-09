@@ -39,7 +39,7 @@
 }
 
 .first-description {
-    color: var(--seacondry-color);
+    color: #BFACE2;
     font-size: 17px;
     line-height: 1rem;
     text-transform: uppercase;
@@ -144,11 +144,11 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--background-main-color);
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--main-color);
+    background: transparent;
     border-radius: 30px;
 }
 
