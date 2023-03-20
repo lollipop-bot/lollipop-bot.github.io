@@ -550,6 +550,10 @@ code {
     margin-top: 40px;
 }
 
+.w--current {
+    color: #3D2C8D;
+}
+
 @media screen and (max-width: 991px) {
     .navigation-link {
         color: #827397;
