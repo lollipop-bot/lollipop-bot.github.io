@@ -38,7 +38,7 @@
         <nav role="navigation" class="navigation-menu w-nav-menu">
             <a href="/commands" class="navigation-link w-nav-link" style="max-width: 940px;">Commands</a>
             <a href="/statistics" class="navigation-link w-nav-link" style="max-width: 940px;">Statistics</a>
-            <a href="https://lollipopbot.statuspage.io/" class="navigation-link w-nav-link" style="max-width: 940px;">Status</a>
+            <a href="https://lollipop.betteruptime.com/" class="navigation-link w-nav-link" style="max-width: 940px;">Status</a>
             <a href="https://www.buymeacoffee.com/booleancub3" class="navigation-link w-nav-link" style="max-width: 940px;">Donate</a>
         </nav>
         <div class="hamburger-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
@@ -87,8 +87,7 @@
                                 <span class="examples">
 
                                         Activity: <img src="https://camo.githubusercontent.com/dfc4ac12c04933bb1a7b4ffe680a9987da057ed3f85fe968d3d4a6cf3bae055f/68747470733a2f2f746f702e67672f6170692f7769646765742f7374617475732f3931393036313537323634393931303239322e737667" alt="status" /><br>
-                                        Server: Raspberry Pi 4<br>
-                                        Average Latency: ~30 ms
+                                        Server: Oracle 8 VM<br>
 
                                 </span>
                                 </div>
@@ -108,8 +107,7 @@
                                 <span class="examples">
 
                                         Activity: <img src="https://camo.githubusercontent.com/dfc4ac12c04933bb1a7b4ffe680a9987da057ed3f85fe968d3d4a6cf3bae055f/68747470733a2f2f746f702e67672f6170692f7769646765742f7374617475732f3931393036313537323634393931303239322e737667" alt="status" /><br>
-                                        Server: Raspberry Pi 4<br>
-                                        Average Latency: ~40 ms
+                                        Server: Oracle 8 VM<br>
 
                                 </span>
                                 </div>
@@ -129,8 +127,7 @@
                                 <span class="examples">
 
                                         Activity: <img src="https://camo.githubusercontent.com/dfc4ac12c04933bb1a7b4ffe680a9987da057ed3f85fe968d3d4a6cf3bae055f/68747470733a2f2f746f702e67672f6170692f7769646765742f7374617475732f3931393036313537323634393931303239322e737667" alt="status" /><br>
-                                        Server: Raspberry Pi 4<br>
-                                        Average Latency: ~70 ms
+                                        Server: Oracle 8 VM<br>
 
                                 </span>
                                 </div>
@@ -150,8 +147,7 @@
                                 <span class="examples">
 
                                         Activity: <img src="https://camo.githubusercontent.com/dfc4ac12c04933bb1a7b4ffe680a9987da057ed3f85fe968d3d4a6cf3bae055f/68747470733a2f2f746f702e67672f6170692f7769646765742f7374617475732f3931393036313537323634393931303239322e737667" alt="status" /><br>
-                                        Server: Raspberry Pi 4<br>
-                                        Average Latency: ~60 ms
+                                        Server: Oracle 8 VM<br>
 
                                 </span>
                                 </div>
@@ -178,8 +174,8 @@
 
                                         Host Service: pm2<br>
                                         Operating System: Linux<br>
-                                        Version: 5.10.17-v7l+<br>
-                                        Architecture: Arm<br>
+                                        Version: 5.15.0-100.96.32.el8uek.aarch64<br>
+                                        Architecture: aarch64<br>
                                         Security: UFW Firewall
 
                                 </span>
@@ -199,8 +195,10 @@
                                 <div class="accordion-body">
                                 <span class="examples">
 
-                                        Allocated Memory: 358,400 kB<br>
-                                        Maximum Memory: 980,992 kB<br>
+                                        Free memory: 293,305 kB<br>
+                                        Allocated memory: 884,736 kB<br>
+                                        Max memory: 18,268,160 kB<br>
+                                        Total free memory: 17,676,729 kB<br>
 
                                 </span>
                                 </div>
@@ -222,8 +220,8 @@
                                         <br>
                                         If the load average rises to 1.5, the CPU was busy all the time while there was (on average) one other process waiting for 50% of the time, giving the CPU more work than it can handle.<br>
                                         <br>
-                                        System Load Average: ~0.35<br>
-                                        Available Processors (cores): 4<br>
+                                        System Load Average: ~0.05<br>
+                                        Available Processors (cores): 12<br>
 
 
                                 </span>
@@ -275,6 +273,8 @@
                                         <br>
                                         Awatch Library (Connects with Jikan API with optimized data retrieval and caching)<br>
                                         Mread Library (Mread.org Web Scraping Library with optimized data caching and threading)<br>
+                                        <br>
+                                        DiscordDB (Database library to store data and retrieve data efficiently)<br>
 
                                 </span>
                                 </div>
@@ -313,10 +313,34 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne11">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fspecs">
-                                    Dedicated Server Specifics&nbsp; <span class="command-description">- Open for details</span>
+                                    Dedicated VM Specifics&nbsp; <span class="command-description">- Open for details</span>
                                 </button>
                             </h2>
                             <div id="fspecs" class="accordion-collapse collapse" data-bs-parent="#specs">
+                                <div class="accordion-body">
+                                <span class="examples">
+
+                                        - Image: Oracle-Linux-8.7-aarch64-2023.04.25-0<br>
+                                        - Shape: VM.Standard.A1.Flex<br>
+                                        - OCPU count: 12<br>
+                                        - Networking Bandwidth: 12 Gbps<br>
+                                        - Memory: 12GB<br>
+                                        - Local Disk: Block storage<br>
+
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush mt-2" id="lspecs">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne16">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flspecs">
+                                    Local Server Specifics&nbsp; <span class="command-description">- Open for details</span>
+                                </button>
+                            </h2>
+                            <div id="flspecs" class="accordion-collapse collapse" data-bs-parent="#lspecs">
                                 <div class="accordion-body">
                                 <span class="examples">
 
@@ -341,7 +365,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne15">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fhost">
-                                    Free Hosting Plan&nbsp; <span class="command-description">- Open for details</span>
+                                    Backup Hosting Plan&nbsp; <span class="command-description">- Open for details</span>
                                 </button>
                             </h2>
                             <div id="fhost" class="accordion-collapse collapse" data-bs-parent="#host">
@@ -413,7 +437,7 @@
                 <h5>contact</h5>
                 <div class="footer-link-wrapper w-clearfix">
                     <img src="https://www.freeiconspng.com/uploads/discord-black-icon-1.png" alt="" class="info-icon" width="20">
-                    <a href="https://discord.com/invite/3ZDpPyR" class="footer-link with-icon">Discord (bool#4690)</a>
+                    <a href="https://discord.com/invite/3ZDpPyR" class="footer-link with-icon">Discord (booleancube)</a>
                 </div>
                 <div class="footer-link-wrapper w-clearfix">
                     <img src="https://pngimg.com/d/github_PNG83.png" alt="" class="info-icon" width="20">
@@ -433,7 +457,7 @@
 </div>
 <div class="footer center">
     <div class="w-container">
-        <div class="footer-text">Copyright © 2022 BooleanCube | <a href="/tos">Terms of Service</a></div>
+        <div class="footer-text">Copyright © 2022-2023 BooleanCube | <a href="/tos">Terms of Service</a></div>
     </div>
 </div>
 
